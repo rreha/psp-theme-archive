@@ -1,0 +1,38 @@
+.parent{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 10px;
+}
+	
+body {
+	font-family: Tahoma, Verdana, sans-serif;
+	-webkit-backdrop-filter: blur(10px) saturate(70%);
+	backdrop-filter: blur(10px) saturate(70%);
+    background-color: rgb(199, 219, 211);
+}
+
+a:hover, a:active {
+	background-color: white;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: gray;
+}
+	  
+p {
+	/*color: white;*/
+	font-size: 15px;
+	text-align: center
+}
+	  
+h1 {
+	font-size: 30px;
+	text-align: center
+}
+	  
+h2 {
+	font-size: 25px;
+	text-align: center
+}
+
